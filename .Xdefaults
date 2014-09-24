@@ -1,0 +1,55 @@
+# --- CLIPBOARD ---
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+# --- MISC OPTIONS ---
+
+URxvt*scrollBar: false
+URxvt*perl-lib: /usr/lib/urxvt/perl/
+URxvt.saveLines:32767 
+
+# --- URL MATCHING ---
+
+URxvt*perl-ext-common: default,matcher
+URxvt*urlLauncher: /usr/bin/chromium-browser
+URxvt*matcher.button: 1
+URxvt*matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+
+# --- FONTS ---
+
+URxvt*font: xft:Terminus:pixelsize=20:antialias=true
+URxvt*boldFont: xft:Terminus:pixelsize=20:antialias=true
+
+URxvt*iconFile: /usr/share/icons/Moka/96x96/apps/bash.png
+
+# Used for weird fonts
+#URxvt*.letterSpace: -3
+
+# --- COLOUR THEME ---
+
+!URxvt.depth: 32 
+
+URxvt.foreground: #dcdccc
+URxvt*background: #171a1f
+ 
+URxvt*colorUL: 	#c5f779 
+URxvt*underlineColor: 	#c5f779
+ 
+URxvt*color0:  #363636 
+URxvt*color1:  #C37561
+URxvt*color2:  #A0A57E
+URxvt*color3:  #D1A375
+URxvt*color4:  #7985A3
+URxvt*color5:  #AB716D
+URxvt*color6:  #98B9B1
+URxvt*color7:  #D0D0D0
+3URxvt*color8:  #424242
+URxvt*color9:  #D19485
+URxvt*color10: #B6B99D
+URxvt*color11: #DEBC9C
+URxvt*color12: #98A1B9 
+URxvt*color13: #BE918E
+URxvt*color14: #CBE6CB
+URxvt*color15: #E6E6E6
