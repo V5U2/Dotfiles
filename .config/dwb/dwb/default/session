@@ -1,0 +1,15 @@
+g:default
+-12 https://www.google.com.au/search?output=search&sclient=psy-ab&q=un%20gz&oq=&gs_l=&pbx=1 unzip
+-11 https://www.google.com.au/search?output=search&sclient=psy-ab&q=un%20gz&oq=&gs_l=&pbx=1#q=unzip+gz+file+unix unzip
+-10 http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/ Linux
+-9 https://lms.curtin.edu.au/webapps/portal/frameset.jsp Blackboard
+-8 https://lms.curtin.edu.au/webapps/portal/frameset.jsp Blackboard
+-7 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_11469_1%26url%3D Blackboard
+-6 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_11469_1%26url%3D Blackboard
+-5 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_11469_1%26url%3D Blackboard
+-4 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_11469_1%26url%3D Blackboard Learn
+-3 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_3_1 Blackboard Learn
+-2 https://lms.curtin.edu.au/webapps/portal/frameset.jsp Blackboard Learn
+-1 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_16217_1%26url%3D Blackboard Learn
+0|0 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_tab_group_id=_4_1&url=%2Fwebapps%2Fblackboard%2Fexecute%2Flauncher%3Ftype%3DCourse%26id%3D_16217_1%26url%3D Blackboard Learn
+1 https://lms.curtin.edu.au/webapps/portal/frameset.jsp?tab_group=courses&url=%2Fwebapps%2Fblackboard%2Fexecute%2Fcontent%2Ffile%3Fcmd%3Dview%26content_id%3D_3175921_1%26course_id%3D_16217_1%26framesetWrapped%3Dtrue Blackboard Learn
