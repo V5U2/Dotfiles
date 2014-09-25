@@ -11,13 +11,13 @@
 ~Msle0~/\<alias\>
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
+:q!
 :w
 :.,.+1w
 :W
 :wq!
-:q!
 :qw
 :help latex-suite.txt
 :helptags  ~/.vim/doc
@@ -48,20 +48,22 @@
 
 # Registers:
 "0	LINE	0
-	cp -r ~/.config/
+	echo "Copying Dotfiles..."
 ""1	LINE	0
-	cp -r ~/.config/
+	echo "Copying Dotfiles..."
 "2	LINE	0
-	cp -r ~/.config/dd
+	cp -r ~/.config/
 "3	LINE	0
-	#alias zath='zathura'
+	cp -r ~/.config/dd
 "4	LINE	0
-	
+	#alias zath='zathura'
 "5	LINE	0
-	#alias za='zathura'
+	
 "6	LINE	0
-	#alias uni='~/Dropbox/University/2014/S2'
+	#alias za='zathura'
 "7	LINE	0
+	#alias uni='~/Dropbox/University/2014/S2'
+"8	LINE	0
 		\subsection{What are the economic benefits of Ultra Fast Broadband in Australia?}
 	375
 <		Many people require high bandwidth internet connections in order to do their job more effectively. This includes academics which need to do large amounts of research, small business which backup multiple files through the internet. Medium businesses which need to connect multiple offices together and film-makers which need to upload content online, just to name a few.
@@ -87,33 +89,38 @@
 <	It was difficult to find unbiased opinions, most studies are very one sided due to the political implications of the National Broadband Network. It was easy to find studies that relate to the NBN because it has been a hot topic in the news. Many scholars have been \dots
 	
 	\end{document}
-"8	LINE	0
+"9	LINE	0
 	501
 <		Many studies have found that high price, lack of content and awareness are major factors that affect broadband uptake. A study of broadband in the UK (\cite{ukimpactstudy}) finds there is a correlation between the rate of internet use and the customer age. Almost all socio-economic variables have been found to explain adopters and non-adopters of high speed broadband. Applied to Australia this study explains why many Australians offered a $100$ megabit plan choose a slower $25$ megabit plan.
 	
-"9	LINE	0
-			
 "-	CHAR	0
 	d
 
 # File marks:
-'0  3  0  ~/Documents/dotfiles/update.sh
-'1  5  29  ~/Documents/dotfiles/update.sh
-'2  7  0  ~/Documents/dotfiles/update.sh
-'3  1  0  ~/Documents/dotfiles/update.sh
+'0  1  0  ~/Documents/dotfiles/update.sh
+'1  14  19  ~/Documents/dotfiles/update.sh
+'2  6  7  ~/Documents/dotfiles/backup.sh
+'3  4  4  ~/Documents/dotfiles/backup.sh
 '4  1  0  ~/Documents/dotfiles/install.sh
-'5  85  0  ~/.zshrc
-'6  6  0  ~/.zshalias
-'7  4  0  ~/.zshalias
-'8  87  0  ~/.zshrc
-'9  1  0  ~/.zshalias
+'5  1  0  ~/.profile
+'6  23  154  ~/Documents/dotfiles/install.sh
+'7  9  0  ~/Documents/dotfiles/update.sh
+'8  3  0  ~/Documents/dotfiles/update.sh
+'9  5  29  ~/Documents/dotfiles/update.sh
 
 # Jumplist (newest first):
--'  3  0  ~/Documents/dotfiles/update.sh
 -'  1  0  ~/Documents/dotfiles/update.sh
+-'  14  19  ~/Documents/dotfiles/update.sh
+-'  6  7  ~/Documents/dotfiles/backup.sh
+-'  1  0  ~/Documents/dotfiles/backup.sh
+-'  4  4  ~/Documents/dotfiles/backup.sh
+-'  1  0  ~/Documents/dotfiles/install.sh
+-'  1  0  ~/.profile
+-'  23  154  ~/Documents/dotfiles/install.sh
+-'  9  0  ~/Documents/dotfiles/update.sh
+-'  3  0  ~/Documents/dotfiles/update.sh
 -'  5  29  ~/Documents/dotfiles/update.sh
 -'  7  0  ~/Documents/dotfiles/update.sh
--'  1  0  ~/Documents/dotfiles/install.sh
 -'  85  0  ~/.zshrc
 -'  1  0  ~/.zshrc
 -'  6  0  ~/.zshalias
@@ -122,8 +129,7 @@
 -'  87  0  ~/.zshrc
 -'  51  13  ~/.zshrc
 -'  52  0  ~/.zshrc
--'  18  150  ~/Documents/dotfiles/install.sh
--'  7  13  ~/Documents/dotfiles/install.sh
+-'  8  13  ~/Documents/dotfiles/install.sh
 -'  1  0  ~/Documents/Dotfiles/.gtkrc-2.0
 -'  1  0  ~/Documents/Dotfiles/.config/Trolltech.conf
 -'  9  13  ~/Documents/Dotfiles/install.sh
@@ -200,28 +206,21 @@
 -'  74  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
 -'  123  79  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
 -'  95  51  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  10  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  20  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  27  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  144  23  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  21  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn/assn.tex
--'  1  14  ~/Dropbox/University/2014/S2/SC101/Assessment 1/mybib.bib
--'  63  0  ~/Dropbox/University/2014/S2/SC101/Assessment 1/assn.tex
 
 # History of marks within files (newest to oldest):
 
 > ~/Documents/dotfiles/update.sh
-	"	3	0
-	^	3	0
-	.	6	0
+	"	1	0
+	^	14	20
+	.	14	19
 	+	3	11
-	+	9	19
+	+	10	19
 	+	3	13
-	+	9	17
-	+	9	23
+	+	10	17
+	+	10	23
 	+	5	0
-	+	9	18
-	+	14	0
+	+	10	18
+	+	15	0
 	+	5	0
 	+	8	0
 	+	6	15
@@ -232,8 +231,8 @@
 	+	7	23
 	+	8	0
 	+	4	14
-	+	12	14
-	+	13	16
+	+	13	14
+	+	14	16
 	+	5	21
 	+	6	25
 	+	7	26
@@ -247,21 +246,70 @@
 	+	6	34
 	+	7	0
 	+	6	0
+	+	8	39
+	+	3	14
+	+	2	13
+	+	3	19
+	+	4	20
+	+	5	28
+	+	6	32
+	+	7	33
+	+	8	31
+	+	10	23
+	+	11	19
+	+	12	21
+	+	13	19
+	+	14	22
+	+	2	10
+	+	3	16
+	+	4	17
+	+	5	24
+	+	6	28
+	+	7	29
+	+	8	27
+	+	10	20
+	+	11	16
+	+	12	19
+	+	13	16
+	+	14	19
+
+> ~/Documents/dotfiles/backup.sh
+	"	6	7
+	^	4	5
+	.	4	4
+	+	4	4
 
 > ~/Documents/dotfiles/install.sh
 	"	1	0
-	^	18	151
-	.	18	151
+	^	23	155
+	.	24	0
 	+	6	11
-	+	7	13
+	+	8	13
 	+	3	54
-	+	8	0
+	+	9	0
 	+	5	9
-	+	15	0
-	+	13	39
-	+	18	57
-	+	17	6
-	+	18	151
+	+	20	0
+	+	18	39
+	+	23	57
+	+	22	6
+	+	23	151
+	+	11	13
+	+	6	11
+	+	5	5
+	+	7	18
+	+	12	0
+	+	16	0
+	+	6	25
+	+	12	0
+	+	6	0
+	+	13	0
+	+	12	11
+	+	13	7
+	+	24	63
+	+	24	0
+
+> ~/.profile
+	"	1	0
 
 > ~/.zshrc
 	"	85	0

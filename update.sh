@@ -1,14 +1,14 @@
 #!/bin/bash
+mkdir ./dotbackup
+cp -r ~/.i3 ./dotbackup
+cp -r ~/.vim ./dotbackup
+cp -r ~/.config/dwb ./dotbackup/.config/dwb
+cp -r ~/.config/zathura ./dotbackup/.config/zathura
+cp -r ~/.config/nitrogen ./dotbackup/.config/nitrogen
+cp -r ~/.config/ranger ./dotbackup/.config/ranger
 
-cp -r ~/.i3 ./
-cp -r ~/.vim ./
-cp -r ~/.config/dwb ./.config/dwb
-cp -r ~/.config/zathura ./.config/zathura
-cp -r ~/.config/nitrogen ./.config/nitrogen
-cp -r ~/.config/ranger ./.config/ranger
-
-cp ~/.Xdefaults ./
-cp ~/.vimrc ./
-cp ~/.viminfo ./
-cp ~/.zshrc ./
-cp ~/.zshalias ./
+cp ~/.Xdefaults ./dotbackup
+cp ~/.vimrc ./dotbackup
+cp ~/.viminfo ./dotbackup
+cp ~/.zshrc ./dotbackup
+cp ~/.zshalias ./dotbackup
